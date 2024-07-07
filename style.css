@@ -1,0 +1,144 @@
+header {
+    background: rgb(194, 43, 177) url(https://play-lh.googleusercontent.com/MOiqPA3dQ5Xolji1o8DoV9XADxn3ObmYChY1tng6wVw51fkpk3-BNBrd4_-Ls_szT90);
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.orders_list {
+    letter-spacing: -2px;
+    text-align: right;
+    padding: 10px;
+    max-width: 1320px;
+    height: 300px;
+}
+
+main {
+    background-color: rgb(234, 211, 234);
+}
+
+.cargo {
+    color: purple;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 10px;
+    width: 1300px;
+    transform: translate(0px, -550px);
+}
+
+.cargo p{
+    text-shadow: rgb(197, 55, 197) 0 0 10px;
+    color: rgb(183, 35, 183);
+}
+
+.start {
+    width: 170px;
+    text-align: left;
+    height: 50px;
+    font-size: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px rgb(214, 108, 214);
+    border: 3px solid black;
+    text-shadow: grey 0 0 10px;
+    transform: translate(230px,-580px);
+}
+
+.finish {
+    width: 170px;
+    text-align: left;
+    height: 50px;
+    font-size: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(214, 108, 214);
+    border: 3px solid black;
+    text-shadow: grey 0 0 5px;
+    transform: translate(300px,-580px);
+}
+
+.start:hover {
+    border: 3px solid blueviolet;
+    box-shadow: 0px 0px 17px rgb(214, 108, 214);
+}
+
+.finish:hover {
+    border: 3px solid blueviolet;
+    box-shadow: 0px 0px 17px rgb(214, 108, 214);
+}
+
+.right_move {
+    transform: translate(270px,-550px);
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+.DAF {
+    transform: translate(100px, -100px);
+}
+
+.save_map {
+    transform: translate(-100px, -480px);
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px rgb(214, 108, 214);
+    background-color: white;
+    border: 3px solid black;
+    text-shadow: grey 0 0 5px;
+}
+
+.save_map:hover {
+    border: 3px solid blueviolet;
+    box-shadow: 0px 0px 17px rgb(214, 108, 214);
+}
+
+h2 {
+    letter-spacing: 0px;
+    text-align: center;
+    transform: translate(330px,470px);
+    font-size: 40px;
+    color: rgb(194, 43, 177);
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+h2:hover {
+    color: #5265f6;
+}
+
+.new_fura {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
+
+.fura {
+    width: 250px;
+    text-align: left;
+    height: 50px;
+    font-size: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(214, 108, 214);
+    border: 3px solid black;
+    text-shadow: grey 0 0 5px;
+    transform: translate(250px,-310px);
+}
+
+.fura:hover {
+    border: 3px solid blueviolet;
+    box-shadow: 0px 0px 17px rgb(214, 108, 214);
+}
+
+.fura_ride {
+    letter-spacing: -2;
+    font-size: 35px;
+    font-family:Arial;
+    text-shadow: 0px 0px 10px grey;
+    transform: translate(100px,-300px);
+}
